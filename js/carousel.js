@@ -7,16 +7,15 @@ $(document).ready(function() {
         //responsiveBaseWidth : ".slider"
         responsive : false,
         autoPlay : 4000,
-        //loop: true,
-
+        loop: true,
     });
 
     // Custom Navigation Events
     $(".next").click(function(){
-        owl.trigger('owl.next');
+        owl.trigger('next.owl.carousel');
     });
     $(".prev").click(function(){
-        owl.trigger('owl.prev');
+        owl.trigger('prev.owl.carousel');
     });
 
 });
