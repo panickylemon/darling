@@ -337,8 +337,82 @@ header{
 	z-index: 290;
 }
 
+.wrap_programs{
+	color: #593315;
+	position: relative;
+}
+
 .programs_background{
 	position: relative;
 	z-index: 280;
 	margin-top: -20px;
+}
+
+.item_program{
+	border: 0px solid #2dff4f;
+	width: 962px;
+	margin: 0 auto 10px;
+}
+
+.name_item_program{
+	font-family: Constantia;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+.icon_program{
+	height: 24px;
+	border: 0px solid #2dff4f;
+}
+
+.point_time_price_program{
+	width: 138px;
+	display: inline-block;
+	border: 0px solid #2b42ff;
+	margin: 13px 17px 0 0;
+}
+
+.area_program{
+	width: 88px;
+	height: 24px;
+	background: white;
+	display: inline-block;
+	margin-left: 14px;
+	font-size: 16px;
+	font-family: "PF Din Text Cond Pro";
+	text-align: center;
+	vertical-align: top;
+	padding-top: 2px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.description_program{
+	font-size: 18px;
+	font-family: "PF Din Text Cond Pro";
+	margin-top: 10px;
+}
+
+.all_item_program{
+	border: 0px solid #4dffe4;
+	margin-top: -2500px;
+	position: relative;
+	z-index: 999;
+}
+
+.tracery_program{
+	margin: 20px auto 1px;
+	width: 82px;
+}
+
+.point_bonus_program{
+	display: inline-block;
+	border: 0px solid #4dffe4;
+	font-size: 16px;
+	font-family: "PF Din Text Cond Pro";
+	height: 26px;
+	vertical-align: top;
+	padding-top: 14px;
 }
