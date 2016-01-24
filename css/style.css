@@ -48,7 +48,7 @@ html, body {
 	background: url("../pictures/pattern2.png");
 	width: 100%;
 	border: 0px solid royalblue;
-	/*height: 500%;*/
+
 }
 
 header{
@@ -315,11 +315,10 @@ header{
 	cursor: pointer;
 }
 
-.button_reasons:hover{
-	width: 338px;
-	height: 66px;
-	/*display: none;*/
-}
+/*.button_reasons:hover{*/
+	/*width: 338px;*/
+	/*height: 66px;*/
+/*}*/
 
 .text_rhombus_our_program{
 	color: white;
@@ -431,14 +430,107 @@ header{
 	margin: 10px auto 0px;
 	position: relative;
 	z-index: 999;
-	padding-bottom: 200px;
+	padding-bottom: 150px;
 }
 
-.button_program:hover{
-	width: 338px;
-	height: 66px;
+.button_program_box a{
+	cursor: pointer;
 }
+
+/*.button_program:hover{*/
+	/*width: 338px;*/
+	/*height: 66px;*/
+/*}*/
 
 .map{
-	margin-top: -174px;
+	margin-top: -140px;
 }
+
+.bachelor_wrap{
+	margin-top: -110px;
+	position: relative;
+	z-index: 500;
+	padding-bottom: 25px;
+}
+
+.bachelor_text{
+	width: 700px;
+	border: 0px solid #4dffe4;
+	color: white;
+	margin: -350px auto 0;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.title_bachelor_text{
+	font-size: 36px;
+	font-family: Constantia;
+	font-weight: bold;
+}
+
+.box_text_bachelor{
+	font-size: 24px;
+	font-family: "PF Din Text Cond Pro";
+	margin-top: 45px;
+}
+
+.button_bachelor{
+	width: 390px;
+	margin: 45px auto 0px;
+	position: relative;
+	z-index: 999;
+}
+
+/*.button3:hover{*/
+	/*width: 338px;*/
+	/*height: 66px;*/
+/*}*/
+
+.button_bachelor a{
+	cursor: pointer;
+}
+
+.footer_content{
+	width: 1200px;
+}
+
+.footer_content:after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+
+.footer_left_block{
+	float: left;
+	width: 600px;
+	border: 1px solid #4dffe4;
+	font-family: "PF Din Text Cond Pro";
+	color: white;
+	margin: -190px 0 0 74px;
+	position: relative;
+	z-index: 999;
+
+}
+
+.footer_firstrow{
+	font-size: 18px;
+}
+
+.footer_secondrow{
+	font-size: 24px;
+}
+
+.footer_thirdrow{
+	font-size: 18px;
+	margin-top: 8px;
+}
+
+footer{
+	height: 208px;
+}
+
+/*.footer_right_block{*/
+	/*margin-top: 30px;*/
+	/*border: 1px solid #4dffe4;*/
+/*}*/
