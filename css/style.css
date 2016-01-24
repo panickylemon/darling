@@ -294,3 +294,24 @@ header{
 	font-size: 24px;
 }
 
+.button_reasons_box{
+	width: 340px;
+	margin: -170px auto 0px;
+	position: relative;
+	padding-bottom: 200px;
+}
+
+.button_reasons{
+	position: absolute;
+}
+
+
+.button_reasons_box a{
+	cursor: pointer;
+}
+
+.button_reasons:hover{
+	width: 338px;
+	height: 66px;
+	/*display: none;*/
+}
