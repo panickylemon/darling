@@ -138,6 +138,7 @@ header{
 
 .wrap_second_box{
 	position: relative;
+	z-index: 350;
 }
 
 .wrap_slider{
@@ -243,6 +244,8 @@ header{
 .picture_reasons_backgroud{
 	margin-top: -68px;
 	width: 1200px;
+	position: relative;
+	z-index: 300;
 }
 
 .ten_reasons{
@@ -252,6 +255,7 @@ header{
 	height: 600px;
 	position: relative;
 	padding-bottom: 300px;
+	z-index: 999;
 }
 
 .title_reasons{
@@ -299,6 +303,8 @@ header{
 	margin: -170px auto 0px;
 	position: relative;
 	padding-bottom: 200px;
+	z-index: 999;
+
 }
 
 .button_reasons{
@@ -314,4 +320,25 @@ header{
 	width: 338px;
 	height: 66px;
 	/*display: none;*/
+}
+
+.text_rhombus_our_program{
+	color: white;
+	font-size: 36px;
+	font-family: Constantia;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -95px;
+}
+
+.rhombus_our_program{
+	margin-top: -94px;
+	position: relative;
+	z-index: 290;
+}
+
+.programs_background{
+	position: relative;
+	z-index: 280;
+	margin-top: -20px;
 }
