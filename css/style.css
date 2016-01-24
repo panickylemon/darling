@@ -102,6 +102,7 @@ header{
 	position: relative;
 	width: 1200px;
 	margin: auto;
+
 }
 
 .mainpage{
@@ -237,5 +238,59 @@ header{
 	content: "";
 	display: table;
 	height: 320px;
+}
+
+.picture_reasons_backgroud{
+	margin-top: -68px;
+	width: 1200px;
+}
+
+.ten_reasons{
+	width: 660px;
+	margin: -900px auto 0;
+	border: 0px solid #2dff4f;
+	height: 600px;
+	position: relative;
+	padding-bottom: 300px;
+}
+
+.title_reasons{
+	font-family: Constantia;
+	text-align: center;
+	color: white;
+	font-size: 36px;
+	/*font-weight: bold;*/
+}
+
+.item_reasons{
+	clear: both;
+	content: "";
+	display: table;
+	padding-bottom: 15px;
+}
+
+
+.all_reasons{
+	border: 0px solid #2dff4f;
+	margin-top: 40px;
+	font-family: Constantia;
+	color: white;
+	font-size: 24px;
+}
+
+.icon_reasons{
+	float: left;
+	width: 50px;
+	margin-right: 24px;
+	text-align: center;
+
+}
+
+
+.text_item_reasons{
+	float: right;
+	vertical-align: bottom;
+	padding-top: 5px;
+	font-size: 24px;
 }
 
