@@ -48,7 +48,7 @@ html, body {
 	background: url("../pictures/pattern2.png");
 	width: 100%;
 	border: 0px solid royalblue;
-	height: 500%;
+	/*height: 500%;*/
 }
 
 header{
@@ -107,16 +107,17 @@ header{
 .mainpage{
 	margin-top: -95px;
 	position: relative;
-
+	z-index: 800;
 }
 
 .box_text_mainpage{
 	width: 800px;
 	height: 300px;
 	border: 0px solid royalblue;
-	margin: -406px auto 0px;
+	margin: -425px auto 0px;
 	position: relative;
 	color: white;
+	z-index: 820;
 }
 
 .title_mainpage{
@@ -134,23 +135,57 @@ header{
 	margin-top: 65px;
 }
 
+.wrap_second_box{
+	position: relative;
+}
+
+.wrap_slider{
+	border: 0px solid royalblue;
+	font-family: "PF Din Text Cond Pro";
+	font-size: 30px;
+	margin-top: -573px;
+}
+
+.title_second_box{
+	color: white;
+	font-family: Constantia;
+	font-size: 36px;
+	/*font-weight: bold;*/
+	position: absolute;
+	z-index: 900;
+	text-align: center;
+	margin-top: -608px;
+	margin-left: 475px;
+
+}
+
 .slider{
-	border: 1px solid royalblue;
+	width: 972px;
+	border: 0px solid #ff60f5;
+	margin: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	position: relative;
+	z-index: 999;
 }
 
 .item_first{
-	border: 1px solid royalblue;
+	border: 0px solid royalblue;
 	height: 100%;
 	width: 296px;
 	margin: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
 
-.owl-item{
-	/*width: 400px !important;*/
+.name{
+	padding-top: 5px;
 }
+
 
 .item{
-	width: 399px;
 	margin: auto;
 }
 
@@ -166,14 +201,41 @@ header{
 }
 .customNavigation{
 	text-align: center;
+	border: 0px solid #2dff4f;
+	color: #FFFFFF;
+	margin-top: -345px;
+	position: relative;
 }
 
-  .customNavigation a{
+.customNavigation a{
+	  color: #FFFFFF;
 	  -webkit-user-select: none;
 	  -khtml-user-select: none;
 	  -moz-user-select: none;
 	  -ms-user-select: none;
 	  user-select: none;
 	  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	  cursor: pointer;
   }
+
+.owl-pagination{
+	  display: none;
+  }
+
+.customNavigation > .next{
+	float: right;
+	margin-right: 47px;
+}
+
+.customNavigation > .prev{
+	float: left;
+	margin-left: 47px;
+}
+
+.customNavigation:after{
+	clear: both;
+	content: "";
+	display: table;
+	height: 320px;
+}
 

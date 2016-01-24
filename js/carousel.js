@@ -5,7 +5,8 @@ $(document).ready(function() {
     owl.owlCarousel({
         items : 3, //10 items above 1000px browser width
         //responsiveBaseWidth : ".slider"
-        responsive : false
+        responsive : false,
+        autoPlay : 4000,
     });
 
     // Custom Navigation Events
@@ -15,11 +16,5 @@ $(document).ready(function() {
     $(".prev").click(function(){
         owl.trigger('owl.prev');
     });
-    $(".play").click(function(){
-        owl.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
-    });
-    $(".stop").click(function(){
-        owl.trigger('owl.stop');
-    })
 
 });
