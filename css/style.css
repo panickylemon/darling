@@ -299,12 +299,11 @@ header{
 }
 
 .button_reasons_box{
-	width: 340px;
+	width: 350px;
 	margin: -170px auto 0px;
 	position: relative;
 	padding-bottom: 200px;
 	z-index: 999;
-
 }
 
 .button_reasons{
@@ -415,4 +414,27 @@ header{
 	height: 26px;
 	vertical-align: top;
 	padding-top: 14px;
+}
+
+.button_program_wrap{
+	margin-top: 22px;
+}
+
+.choose_massage{
+	font-size: 18px;
+	font-family: "PF Din Text Cond Pro";
+	text-align: center;
+}
+
+.button_program_box{
+	width: 390px;
+	margin: 10px auto 0px;
+	position: relative;
+	z-index: 999;
+	padding-bottom: 200px;
+}
+
+.button_program:hover{
+	width: 338px;
+	height: 66px;
 }
