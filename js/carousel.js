@@ -7,6 +7,8 @@ $(document).ready(function() {
         //responsiveBaseWidth : ".slider"
         responsive : false,
         autoPlay : 4000,
+        //loop: true,
+        //rewindSpeed : 10,
     });
 
     // Custom Navigation Events
