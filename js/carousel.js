@@ -8,7 +8,7 @@ $(document).ready(function() {
         responsive : false,
         autoPlay : 4000,
         //loop: true,
-        //rewindSpeed : 10,
+
     });
 
     // Custom Navigation Events
