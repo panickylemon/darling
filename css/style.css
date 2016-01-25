@@ -139,7 +139,8 @@ header{
 	font-family: "PFDinTextCondPro";
 	font-size: 24px;
 	text-align: center;
-	margin-top: 65px;
+	margin-top: 63px;
+	line-height: 1.5;
 }
 
 .get_bonus_img{
@@ -147,17 +148,43 @@ header{
 	z-index: 370;
 }
 
+.content_get_bonus{
+	color: white;
+	position: relative;
+	z-index: 500;
+	text-align: center;
+	border: 0px solid royalblue;
+	margin-top: -257px;
+}
+
+.button_get_bonus a{
+	cursor: pointer;
+}
+
+
+.first_line_get_bonus{
+	font-family: "PFDinTextCondPro";
+	font-size: 30px;
+	padding-bottom: 8px;
+}
+
+.second_line_get_bonus{
+	font-family: Constantia;
+	font-size: 48px;
+	padding-bottom: 45px;
+}
+
 .wrap_second_box{
 	position: relative;
 	z-index: 350;
-	margin-top: -90px;
+	margin-top: -75px;
 }
 
 .wrap_slider{
 	border: 0px solid royalblue;
 	font-family: "PFDinTextCondPro";
 	font-size: 30px;
-	margin-top: -573px;
+	margin-top: -720px;
 }
 
 .title_second_box{
@@ -168,7 +195,7 @@ header{
 	position: absolute;
 	z-index: 900;
 	text-align: center;
-	margin-top: -608px;
+	margin-top: -755px;
 	margin-left: 475px;
 
 }
@@ -195,7 +222,7 @@ header{
 }
 
 .name{
-	padding-top: 5px;
+	padding-top: 15px;
 }
 
 
@@ -251,6 +278,16 @@ header{
 	content: "";
 	display: table;
 	height: 320px;
+}
+
+.button_choose_day{
+	margin: -25px auto 0;
+	text-align: center;
+
+}
+
+.button_choose_day a{
+	cursor: pointer;
 }
 
 .picture_reasons_backgroud{
