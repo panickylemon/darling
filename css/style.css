@@ -7,27 +7,46 @@ html, body {
 	height: 100%;
 }
 
+
+@font-face {
+	font-family: "PFDinTextCondPro";
+	src: url("../fonts/pfdintextcondpro.eot");
+	src: local('☺'),
+	url("../fonts/pfdintextcondpro.eot?") format("embedded-opentype"),
+	url("../fonts/pfdintextcondpro.woff") format("woff"),
+	url("../fonts/pfdintextcondpro.woff2") format("woff2"),
+	url("../fonts/pfdintextcondpro.ttf") format("truetype"),
+	url("../fonts/pfdintextcondpro.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 @font-face {
 	font-family: "Constantia";
-	src: url("../fonts/constan.ttf");
+	src: url("../fonts/constan.eot");
+	src: local('☺'),
+	url("../fonts/constan.eot?") format("embedded-opentype"),
+	url("../fonts/constantia.woff") format("woff"),
+	url("../fonts/constan.woff2") format("woff2"),
+	url("../fonts/constan.ttf") format("truetype"),
+	url("../fonts/constantia.svg") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Constantia";
-	src: url("../fonts/constanb.ttf");
+	src: url("../fonts/constanbold.eot");
+	src: local('☺'),
+	url("../fonts/constanbold.eot?") format("embedded-opentype"),
+	url("../fonts/constanbold.woff") format("woff"),
+	url("../fonts/constanbold.woff2") format("woff2"),
+	url("../fonts/constanbold.ttf") format("truetype"),
+	url("../fonts/constanbold.svg") format("svg");
 	font-weight: bold;
 	font-style: normal;
 }
-
-@font-face {
-	font-family: "PF Din Text Cond Pro";
-	src: url("../fonts/pfdintextcondpro.ttf");
-	font-weight: normal;
-	font-style: normal;
-}
-
 
 .wrapper {
 	background: url("../pictures/pattern2.png");
@@ -105,6 +124,7 @@ header{
 	position: relative;
 	color: white;
 	z-index: 820;
+	padding-bottom: 37px;
 }
 
 .title_mainpage{
@@ -116,20 +136,26 @@ header{
 }
 
 .text_mainpage{
-	font-family: PF Din Text Cond Pro;
+	font-family: "PFDinTextCondPro";
 	font-size: 24px;
 	text-align: center;
 	margin-top: 65px;
 }
 
+.get_bonus_img{
+	position: relative;
+	z-index: 370;
+}
+
 .wrap_second_box{
 	position: relative;
 	z-index: 350;
+	margin-top: -90px;
 }
 
 .wrap_slider{
 	border: 0px solid royalblue;
-	font-family: "PF Din Text Cond Pro";
+	font-family: "PFDinTextCondPro";
 	font-size: 30px;
 	margin-top: -573px;
 }
@@ -364,7 +390,7 @@ header{
 	display: inline-block;
 	margin-left: 14px;
 	font-size: 16px;
-	font-family: "PF Din Text Cond Pro";
+	font-family: "PFDinTextCondPro";
 	text-align: center;
 	vertical-align: top;
 	padding-top: 2px;
@@ -375,7 +401,7 @@ header{
 
 .description_program{
 	font-size: 18px;
-	font-family: "PF Din Text Cond Pro";
+	font-family: "PFDinTextCondPro";
 	margin-top: 10px;
 }
 
@@ -395,7 +421,7 @@ header{
 	display: inline-block;
 	border: 0px solid #4dffe4;
 	font-size: 16px;
-	font-family: "PF Din Text Cond Pro";
+	font-family: "PFDinTextCondPro";
 	height: 26px;
 	vertical-align: top;
 	padding-top: 14px;
@@ -407,7 +433,7 @@ header{
 
 .choose_massage{
 	font-size: 18px;
-	font-family: "PF Din Text Cond Pro";
+	font-family: "PFDinTextCondPro";
 	text-align: center;
 }
 
@@ -455,7 +481,7 @@ header{
 
 .box_text_bachelor{
 	font-size: 24px;
-	font-family: "PF Din Text Cond Pro";
+	font-family: "PFDinTextCondPro";
 	margin-top: 45px;
 }
 
@@ -490,7 +516,7 @@ header{
 	float: left;
 	width: 600px;
 	border: 1px solid #4dffe4;
-	font-family: "PF Din Text Cond Pro";
+	font-family: "PFDinTextCondPro";
 	color: white;
 	margin: 20px 0 0 115px;
 	position: relative;
