@@ -101,10 +101,15 @@ header{
 .contacts_right_col{
 	float: right;
 	margin-left: 41px;
+	margin-top: -3px;
 }
 
 .contacts_left_col{
 	float: left;
+}
+
+.block_link_vk{
+	padding-bottom: 7px;
 }
 
 .vk{
@@ -389,7 +394,7 @@ header{
 }
 
 .rhombus_our_program{
-	margin-top: -94px;
+	margin-top: -95px;
 	position: relative;
 	z-index: 290;
 }
@@ -476,12 +481,14 @@ header{
 
 .button_program_wrap{
 	margin-top: 22px;
+	padding-left: 10px;
 }
 
 .choose_massage{
 	font-size: 18px;
 	font-family: "PFDinTextCondPro";
 	text-align: center;
+	font-style: italic;
 }
 
 .button_program_box{
@@ -496,13 +503,8 @@ header{
 	cursor: pointer;
 }
 
-/*.button_program:hover{*/
-	/*width: 338px;*/
-	/*height: 66px;*/
-/*}*/
-
 .map{
-	margin-top: -140px;
+	margin-top: -148px;
 }
 
 .bachelor_wrap{
@@ -529,20 +531,25 @@ header{
 .box_text_bachelor{
 	font-size: 24px;
 	font-family: "PFDinTextCondPro";
-	margin-top: 45px;
+	margin-top: 25px;
+	line-height: 1.5;
 }
 
 .button_bachelor{
 	width: 390px;
-	margin: 45px auto 0px;
+	margin: 41px auto 0px;
 	position: relative;
 	z-index: 999;
 }
 
-/*.button3:hover{*/
-	/*width: 338px;*/
-	/*height: 66px;*/
-/*}*/
+.button_bachelor_text{
+	font-family: "PFDinTextCondPro";
+	font-size: 18px;
+	font-style: italic;
+	color: #a09e9e;
+	padding-left: 50px;
+	margin-bottom: 7px;
+}
 
 .button_bachelor a{
 	cursor: pointer;
@@ -562,7 +569,7 @@ header{
 .footer_left_block{
 	float: left;
 	width: 600px;
-	border: 1px solid #4dffe4;
+	border: 0px solid #4dffe4;
 	font-family: "PFDinTextCondPro";
 	color: white;
 	margin: 20px 0 0 115px;
@@ -582,18 +589,20 @@ header{
 .footer_thirdrow{
 	font-size: 18px;
 	margin-top: 8px;
+	line-height: 1.1;
 }
 
 footer{
 	height: 206px;
 	background: url("../pictures/footer.png");
 	margin-bottom: -5px;
+	margin-top: -20px;
 }
 
 
 .contacts_footer{
 	float: right;
 	margin: 75px 115px 0 0;
-	border: 1px solid royalblue;
+	border: 0px solid royalblue;
 	position: relative;
 }
